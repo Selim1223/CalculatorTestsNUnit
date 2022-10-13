@@ -96,7 +96,7 @@ namespace CalculatorTestsNUnit
             Assert.That(result, Is.EqualTo(expectedResult));
         }
 
-        
+        /*
         [TestCase("//*\n1*2", 3)]
         [TestCase("//;\n1;2", 3)]
         [TestCase("//;\n1;2;3;4;5;6;7;8;9;10", 55)]
@@ -108,7 +108,7 @@ namespace CalculatorTestsNUnit
             Assert.That(result, Is.EqualTo(expectation));
         }
 
-        /*
+        
         [TestCase("1,-1", -1)]
         [Test]
         public void AddThrowArgumentExceptionWhenSuppliedStringDoesNotMeetRule(string numbers, int beyondRuleNumber)
